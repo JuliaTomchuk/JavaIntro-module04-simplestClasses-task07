@@ -6,9 +6,6 @@ import by.home.epam.module04.task07.entity.Triangle;
 public class TriangleLogic {
 	private PointLogic pointLogic = new PointLogic();
 
-	public TriangleLogic() {
-
-	}
 
 	public Triangle createTriangle(double aX, double aY, double bX, double bY, double acX, double cY) {
 
