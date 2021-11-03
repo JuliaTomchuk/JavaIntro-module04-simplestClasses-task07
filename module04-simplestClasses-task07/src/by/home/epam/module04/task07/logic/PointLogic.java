@@ -3,9 +3,7 @@ package by.home.epam.module04.task07.logic;
 import by.home.epam.module04.task07.entity.Point;
 
 public class PointLogic {
-	public PointLogic() {
-
-	}
+	
 
 	public double findDistance(Point pointFirst, Point pointSecond) {
 		double x1 = pointFirst.getX();
