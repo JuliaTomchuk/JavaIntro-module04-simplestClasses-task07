@@ -45,7 +45,7 @@ public class TriangleLogic {
 		intersectionPoint.setX(
 				(triangle.getVerticeA().getX() + triangle.getVerticeB().getX() + triangle.getVerticeC().getX()) / 3);
 		intersectionPoint.setY(
-				((triangle.getVerticeA().getY() + triangle.getVerticeB().getY() + triangle.getVerticeC().getY())) / 3);
+				(triangle.getVerticeA().getY() + triangle.getVerticeB().getY() + triangle.getVerticeC().getY()) / 3);
 
 		return intersectionPoint;
 
